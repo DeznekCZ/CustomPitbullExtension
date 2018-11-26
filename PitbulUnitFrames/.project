@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>PitbulUnitFrames</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.dltk.core.scriptbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.ldt.nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>PitBull4</name>
+			<type>2</type>
+			<location>F:/World of Warcraft/Interface/AddOns/PitBull4</location>
+		</link>
+		<link>
+			<name>PitBull4.lua</name>
+			<type>1</type>
+			<location>F:/World of Warcraft/WTF/Account/102617627#1/SavedVariables/PitBull4.lua</location>
+		</link>
+	</linkedResources>
+</projectDescription>

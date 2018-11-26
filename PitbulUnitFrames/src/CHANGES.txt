@@ -1,0 +1,54 @@
+tag 66a95ac593a104cbe295f814f1fa977704eb0acd v4.1.16
+Author:	Kyle Buller <bullerk@gmail.com>
+Date:	Thu Aug 23 06:47:56 2018 -0500
+
+Tagging as v4.1.16
+
+commit 8a573df4d6fe2e18d93a116a2999f269fda24ab4
+Author: Kyle Buller <bullerk@gmail.com>
+Date:   Thu Aug 23 05:19:42 2018 -0500
+
+    Update README.md
+
+commit 0b43ad55f7fa50d40e9eecbc7f66c8ea245513d6
+Author: Kyle Buller <bullerk@gmail.com>
+Date:   Thu Aug 23 05:10:40 2018 -0500
+
+    LuaTexts: Fix ArtifactPower()
+
+commit 728c025a102b4f2497ddd4ba5adfea256dfb0594
+Author: Kyle Buller <bullerk@gmail.com>
+Date:   Thu Aug 23 04:43:52 2018 -0500
+
+    Purge unused phrases on WoWAce
+
+commit 0fc614d1d0caa3c8cbd73754acdffae25e98a0f9
+Author: Kyle Buller <bullerk@gmail.com>
+Date:   Thu Aug 23 04:43:36 2018 -0500
+
+    Use API for class and race localization
+
+commit ab8989d6e9fbf2be0f1a12f8ec18db819dc6dac9
+Author: Kyle Buller <bullerk@gmail.com>
+Date:   Thu Aug 23 04:38:03 2018 -0500
+
+    Aura: Add filters for Allied Races
+
+commit a2ff9cb22493627ba0e065f0612c8515f7e26b88
+Author: Kyle Buller <bullerk@gmail.com>
+Date:   Tue Aug 21 09:01:06 2018 -0500
+
+    Aura: Rework filter localization
+
+commit 676ad5f80ac763be8f103ef34e8fa61c0d9244cb
+Author: Kyle Buller <bullerk@gmail.com>
+Date:   Tue Aug 21 01:15:06 2018 -0500
+
+    RangeFinder: Update class spells
+
+commit 035290150ecf23acc14453d47404269aba7077fe
+Author: Kyle Buller <bullerk@gmail.com>
+Date:   Mon Aug 20 22:02:26 2018 -0500
+
+    Aura: Update dispel and purge spells
+
