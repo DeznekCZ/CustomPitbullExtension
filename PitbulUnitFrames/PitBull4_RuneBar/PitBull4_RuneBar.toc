@@ -1,0 +1,11 @@
+## Interface: 71001
+## Title: PitBull4 |r[|cffeda55fRune Bar|r]
+## Notes: Additional bar for Death Knights
+## Author: DeznekCZ
+## LoadOnDemand: 1
+## Dependencies: PitBull4
+## SavedVariables: PitBull4DB
+## Version: v1.0.0
+
+load.xml
+modules.xml

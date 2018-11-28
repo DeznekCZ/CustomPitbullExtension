@@ -1,5 +1,13 @@
+local ChatFrame = getfenv(0)["DEFAULT_CHAT_FRAME"]
+
+if select(2, UnitClass("player")) ~= "DEATHKNIGHT" then
+	ChatFrame:AddMessage("-Not loaded for your class-")
+end
 
 local PitBull4 = _G.PitBull4
+if not PitBull4 then
+	error("PitBull4_RuneBar requires PitBull4")
+end
 local L = PitBull4.L
 
 local EXAMPLE_VALUE = 0.6
@@ -23,7 +31,7 @@ local PitBull4_RuneBar = PitBull4:NewModule("RuneBar", "AceEvent-3.0")
 
 PitBull4_RuneBar:SetModuleType("bar")
 PitBull4_RuneBar:SetName(L["Rune bar"])
-PitBull4_RuneBar:SetDescription(L["Show a bar for death kinght runes."])
+PitBull4_RuneBar:SetDescription(L["Show a bar for death knight runes."])
 PitBull4_RuneBar.allow_animations = true
 PitBull4_RuneBar:SetDefaults({
 	position = 3,
@@ -487,4 +495,18 @@ PitBull4_RuneBar:SetColorOptionsFunction(function(self)
 			0.266666666666667,
 		}
 	end
+end)
+
+PitBull4_RuneBar:SetLayoutOptionsFunction(function(self)
+	return
+		'deficit', nil,
+		'reverse', nil,
+		'color_by_class', nil,
+		'color_pvp_by_class', nil,
+		'hostility_color', nil,
+		'hostility_color_npcs', nil,
+		'toggle_custom_color', nil,
+		'custom_color', nil,
+		'toggle_custom_background', nil,
+		'custom_background', nil
 end)
